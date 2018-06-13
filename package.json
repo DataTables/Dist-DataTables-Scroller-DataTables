@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-scroller-dt",
-    "version": "1.4.4",
+    "version": "1.5.0",
     "description": "Scroller for DataTables ",
     "files": [
         "css/**/*.css",
@@ -24,7 +24,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-dt": "^1.10.15",
-        "datatables.net-scroller": "1.4.4"
+        "datatables.net-scroller": "1.5.0"
     },
     "repository": {
         "type": "git",
