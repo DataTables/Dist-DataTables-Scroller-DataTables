@@ -3,6 +3,7 @@
     "description": "Scroller for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/scroller.dataTables.js",
     "style": "css/scroller.dataTables.css",
+    "types": "./types/scroller.dataTables.d.ts",
     "version": "2.0.3",
     "files": [
         "css/**/*.css",
