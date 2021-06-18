@@ -11,17 +11,17 @@
     ],
     "keywords": [
         "Scroller",
-        "Virtual Scrolling",
-        "Datatables",
+ "Virtual Scrolling",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-dt": "^1.10.15",
-        "datatables.net-scroller": "2.0.4"
+        "datatables.net-scroller": ">=2.0.4",
+        "datatables.net-dt": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
