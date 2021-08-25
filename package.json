@@ -4,15 +4,15 @@
     "main": "js/scroller.dataTables.js",
     "style": "css/scroller.dataTables.css",
     "types": "./types/scroller.dataTables.d.ts",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
-                "Datatables",
+        "Virtual Scrolling",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
