@@ -1,4 +1,3 @@
-
 /*! DataTables styling wrapper for Scroller
  * © SpryMedia Ltd - datatables.net/license
  */
@@ -29,10 +28,9 @@
 				require('datatables.net-dt')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.Scroller ) {
 				require('datatables.net-scroller')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
