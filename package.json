@@ -4,7 +4,7 @@
     "main": "js/scroller.dataTables.js",
     "module": "js/scroller.dataTables.mjs",
     "style": "css/scroller.dataTables.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/scroller.dataTables.d.ts",
     "version": "2.1.1",
     "files": [
         "css/**/*.css",
@@ -14,16 +14,16 @@
     ],
     "keywords": [
         "Scroller",
-        "Virtual Scrolling",
-        "Datatables",
+ "Virtual Scrolling",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.0.7",
-        "datatables.net-dt": ">=1.12.1",
+        "datatables.net-scroller": ">=2.1.1",
+        "datatables.net-dt": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
