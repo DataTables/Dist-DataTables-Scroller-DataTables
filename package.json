@@ -5,7 +5,7 @@
     "module": "js/scroller.dataTables.mjs",
     "style": "css/scroller.dataTables.css",
     "types": "./types/scroller.dataTables.d.ts",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,8 +14,8 @@
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
-                "Datatables",
+        "Virtual Scrolling",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
