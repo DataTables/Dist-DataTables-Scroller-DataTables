@@ -25,7 +25,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-scroller": "3.0.0",
-        "datatables.net/datatables.net-dt": "^3"
+        "datatables.net/datatables.net-scroller": "3.1.0",
+        "datatables.net/datatables.net-dt": "^3.1"
     }
 }
