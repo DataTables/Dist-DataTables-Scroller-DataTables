@@ -37,9 +37,10 @@
     "exports": {
         ".": {
             "types": "./types/scroller.dataTables.d.ts",
+            "style": "./css/scroller.dataTables.css",
             "import": "./js/scroller.dataTables.mjs",
-            "default": "./js/scroller.dataTables.mjs",
-            "require": "./js/scroller.dataTables.js"
+            "require": "./js/scroller.dataTables.js",
+            "default": "./js/scroller.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
