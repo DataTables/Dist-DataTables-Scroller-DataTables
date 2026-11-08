@@ -10,17 +10,6 @@
 		});
 	}
 	else if (typeof exports === 'object') {
-		// CommonJS
-		var cjsRequires = function (root) {
-			if (! root.DataTable) {
-				require('datatables.net-dt')(root);
-			}
-
-			if (! window.DataTable.Scroller) {
-				require('datatables.net-scroller')(root);
-			}
-		};
-
 		if (typeof window === 'undefined') {
 			module.exports = function (root) {
 				if (! root) {
@@ -28,14 +17,28 @@
 					// root. This will give an error otherwise
 					root = window;
 				}
+				
+				var DataTable = root.DataTable ?
+					root.DataTable :
+					require('datatables.net-dt')(root);
 
-				cjsRequires(root);
-				return factory(root, root.document, root.DataTable);
+				if (! root.DataTable.Scroller) {
+					require('datatables.net-scroller')(root);
+				}
+
+				return factory(root, root.document, DataTable);
 			};
 		}
 		else {
-			cjsRequires(window);
-			module.exports = factory(window, window.document, window.DataTable);
+			var DataTable = window.DataTable ?
+				window.DataTable :
+				require('datatables.net-dt');
+
+			if (! window.DataTable.Scroller) {
+				require('datatables.net-scroller');
+			}
+
+			module.exports = factory(window, window.document, DataTable);
 		}
 	}
 	else {
